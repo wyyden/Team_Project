@@ -23,17 +23,19 @@ int main()
 			}
 			case 2
 			{
-				cout << "  Function Minus is under development"
+				cout << "  Function Minus is under development";
 			}
 			case 3
 			{
-				cout << "  Function Multiply is under development"
+				cout << "  Function Multiply is under development";
 			}
 			case 4
 			{
-				cout << "  Function Division is under development"
+				cout << "  Function Division is under development";
 			}
 		}	
+		cout << "Close te program? n/y"
+		sin >> prog_close
 	}
 	system("pause");
 	return 0;
