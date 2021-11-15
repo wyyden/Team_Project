@@ -34,8 +34,8 @@ int main()
 				cout << "  Function Division is under development";
 			}
 		}	
-		cout << "Close te program? n/y"
-		sin >> prog_close
+		cout << "Close te program? n/y";
+		sin >> prog_close;
 	}
 	system("pause");
 	return 0;
