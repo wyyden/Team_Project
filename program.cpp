@@ -20,23 +20,23 @@ int main()
 		{
 			case 1
 			{
-				MySum(a, b);
+				cout << MySum(a, b);
 			}
 			case 2
 			{
-				cout << "  Function Minus is under development";
+				cout << MySub(a, b);
 			}
 			case 3
 			{
-				MyMul(a, b);
+				cout << MyMul(a, b);
 			}
 			case 4
 			{
-				cout << "  Function Division is under development";
+				cout << MyDiv(a, b);
 			}
 		}	
-		cout << "Close te program? n/y";
-		sin >> prog_close;
+		cout << "Close the program? n/y";
+		cin >> prog_close;
 	}
 	system("pause");
 	return 0;
