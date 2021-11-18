@@ -9,6 +9,7 @@ int main()
 	char prog_close = n;
 	while prog_close == n;
 	short int n = 0;
+	cin >> int a >> int b;
 	{
 		cout << "Select the operation number";
 		cout << "1 - Plus";
@@ -19,7 +20,7 @@ int main()
 		{
 			case 1
 			{
-				cout << "  Function plus is under development";
+				MySum(a, b);
 			}
 			case 2
 			{
@@ -27,7 +28,7 @@ int main()
 			}
 			case 3
 			{
-				cout << "  Function Multiply is under development";
+				MyMul(a, b);
 			}
 			case 4
 			{
